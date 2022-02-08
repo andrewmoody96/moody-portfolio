@@ -1,0 +1,11 @@
+header {
+    display: flex;
+}
+
+section {
+    display: flex;
+}
+
+#moody-headshot {
+    max-width: 20vw;
+}
