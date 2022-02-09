@@ -4,8 +4,25 @@ header {
 
 section {
     display: flex;
+    align-items: center;
+}
+
+section div#divider {
+    width: 10px;
+    height: auto;
+    margin: 10px 10px;
+    align-self: stretch;
 }
 
 #moody-headshot {
     max-width: 20vw;
+    margin: 10px 10px;
+}
+
+section div.card {
+    display: flex;
+}
+
+section.contactme a{
+    margin: 10px 10px;
 }

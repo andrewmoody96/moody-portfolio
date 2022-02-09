@@ -1,0 +1,27 @@
+header {
+    background-color: red;
+}
+
+section.aboutme{
+    background-color: yellow;
+}
+
+section.work {
+    background-color: gold;
+}
+
+section.contactme {
+    background-color: darkorange;
+}
+
+section div#divider {
+    background-color: black;
+}
+#moody-headshot {
+    border: 5px inset black;
+    border-radius: 50%;
+}
+
+footer {
+    background-color: green;
+}
