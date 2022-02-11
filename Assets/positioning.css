@@ -7,10 +7,9 @@ section {
     align-items: center;
 }
 
-section div#divider {
-    width: 10px;
+section h2 {
+    padding: 10px;
     height: auto;
-    margin: 10px 10px;
     align-self: stretch;
 }
 
@@ -21,6 +20,8 @@ section div#divider {
 
 section div.card {
     display: flex;
+    align-items: center;
+    margin: 10px 0 0 0;
 }
 
 section.contactme a{
