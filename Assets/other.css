@@ -19,11 +19,22 @@ html {
     }
 
     #other-app {
-        flex-direction: column;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    section div.card {
+        flex-wrap: wrap;
+        width: 50;
     }
 
     .card a h3 {
         display: none;
+    }
+
+    .card a h5 {
+        display: block;
+        margin: 0 5px;
     }
 
     .contactme h4 {
