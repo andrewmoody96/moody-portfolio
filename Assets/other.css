@@ -1,3 +1,33 @@
 html {
     scroll-behavior: smooth;
 }
+
+/* MEDIA QUERIES -- for responsive sizing */
+
+@media only screen and (max-width: 768px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        overflow-x: hidden;
+        width: 100vw;
+        margin: 0 2.5px;
+    }
+    
+    header{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #other-app {
+        flex-direction: column;
+    }
+
+    .card a h3 {
+        display: none;
+    }
+
+    .contactme h4 {
+        padding: ;
+        font-size: smaller;
+    }
+}

@@ -1,6 +1,10 @@
+* {
+    overflow-x: hidden;
+}
+
 body {
-  width: 100vw;
-  overflow: auto;
+    margin: auto;
+    width: 100%;
 }
 
 header {
@@ -57,8 +61,8 @@ section#work-id {
 
 #featuredapp-pic {
   height: auto;
-  max-width: 65vw;
   margin: 10px 10px;
+  max-width: 65vw;
 }
 
 #other-app {
@@ -90,10 +94,11 @@ section div.card a h3 {
 section.contactme {
   display: flex;
   align-items: center;
+  padding: 10px 10px;
 }
 
 section.contactme a {
-  margin: 10px 10px;
+  margin: 7px 7px;
 }
 
 footer {
