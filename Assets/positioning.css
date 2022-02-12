@@ -1,107 +1,107 @@
 body {
-    width: 100vw;
-    overflow: auto;
+  width: 100vw;
+  overflow: auto;
 }
 
 header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 5px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 10px;
 }
 
 header h1 {
-    margin: 20px 20px;
+  margin: 20px 20px;
 }
 p {
-    margin: 10px 10px;
-    max-width: 45vw;
-    text-align: center;
+  margin: 10px 10px;
+  max-width: 45vw;
+  text-align: center;
 }
 
 header nav a {
-    display: inline;
-    margin: 10px 10px;
+  display: inline;
+  margin: 10px 10px;
 }
 
 section {
-    display: flex;
-    padding: 15px 0;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  padding: 15px 0;
+  justify-content: center;
+  align-items: center;
 }
 
 section h2 {
-    padding: 10px;
-    margin: 5px 10px;
-    height: auto;
-    align-self: stretch;
-    text-align: center;
+  padding: 10px;
+  margin: 5px 10px;
+  height: auto;
+  align-self: stretch;
+  text-align: center;
 }
 
 #moody-headshot {
-    max-width: 20vw;
-    margin: 10px 10px 10px 15px;
+  max-width: 20vw;
+  margin: 10px 10px 10px 15px;
 }
 
 section#work-id {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 #featured-app {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 #featuredapp-pic {
-    height: auto;
-    max-width: 65vw;
-    margin: 10px 10px;
+  height: auto;
+  max-width: 65vw;
+  margin: 10px 10px;
 }
 
 #other-app {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .other-app-pic {
-    height: auto;
-    max-width: 20vw;
-    margin: 5px 10px;
+  height: auto;
+  max-width: 20vw;
+  margin: 5px 10px;
 }
 
 section div.card {
-    display: flex;
-    align-items: center;
-    margin: 10px 10px;
-    text-align: center;
+  display: flex;
+  align-items: center;
+  margin: 10px 10px;
+  text-align: center;
 }
 
 section div.card h3 {
-    margin: 0 15px;
+  margin: 0 15px;
 }
 
-section div.card a h3{
-    margin: 15px 15px;
+section div.card a h3 {
+  margin: 15px 15px;
 }
 
 section.contactme {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
-section.contactme a{
-    margin: 10px 10px;
+section.contactme a {
+  margin: 10px 10px;
 }
 
 footer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 footer p {
-    margin: 0;
+  margin: 0;
 }

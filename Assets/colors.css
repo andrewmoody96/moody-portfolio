@@ -1,57 +1,62 @@
 header {
-    background-color: #704241;
-    color: white;
-    border-bottom: 2.5px;
+  background-color: #704241;
+  color: white;
+  border-bottom: 2.5px;
 }
 
 a {
-    color: white;
+  color: white;
 }
 
 P {
-    color: white;
+  color: white;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    color: white;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: white;
 }
 
 header a {
-    color: white;
+  color: white;
 }
 
 section h2 {
-    border-right: 5px solid white;
+  border-right: 5px solid white;
 }
 
-section{
-    background-color: #303030;
-    border: 5px solid #704241;
-    border-bottom: 1.25px;
+section {
+  background-color: #303030;
+  border: 5px solid #704241;
+  border-bottom: 1.25px;
 }
 
 #featured-app {
-    color: black;
+  color: black;
 }
 
 #featuredapp-pic {
-    border: 2.5px solid #262626;
+  border: 2.5px solid #262626;
 }
 
 .card {
-    border: 5px inset white;
+  border: 5px inset white;
 }
 
 #moody-headshot {
-    border: 5px solid white;
-    border-radius: 50%;
+  border: 5px solid white;
+  border-radius: 50%;
 }
 
 footer {
-    background-color: #704241;
-    border-top: 2.5px;
+  background-color: #704241;
+  border-top: 2.5px;
 }
 
 footer p {
-    margin: 10px 0;
+  margin: 10px 0;
 }
