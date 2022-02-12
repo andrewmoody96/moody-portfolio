@@ -18,6 +18,10 @@ section.work {
     color: black;
 }
 
+#featuredapp-pic {
+    border: 2.5px solid #262626;
+}
+
 section.contactme {
     background-color: darkorange;
 }
