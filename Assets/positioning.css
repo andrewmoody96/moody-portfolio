@@ -8,6 +8,11 @@ header {
     justify-content: space-between;
 }
 
+p {
+    margin: 10px 10px;
+    max-width: 45vw;
+    text-align: left;
+}
 
 header nav a {
     display: inline;
@@ -15,8 +20,8 @@ header nav a {
 }
 
 section {
+    width: 100vw;
     display: flex;
-    align-items: center;
 }
 
 section h2 {
@@ -25,15 +30,43 @@ section h2 {
     align-self: stretch;
 }
 
+/* section div#divider {
+    width: 5px;
+} */
+
 #moody-headshot {
     max-width: 20vw;
     margin: 10px 10px 10px 15px;
+}
+
+section#work-id {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+#featured-app {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#featuredapp-pic {
+    width: 100%;
+    height: auto;
+    max-width: 50vw;
+    margin: 5px 10px;
+}
+
+#other-app {
+    display: flex;
+    justify-content: center;
 }
 
 section div.card {
     display: flex;
     align-items: center;
     margin: 10px 0 10px 0;
+    text-align: center;
 }
 
 section div.card h3 {
@@ -42,4 +75,8 @@ section div.card h3 {
 
 section.contactme a{
     margin: 10px 10px;
+}
+
+footer p {
+    margin: 0;
 }
