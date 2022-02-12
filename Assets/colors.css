@@ -1,7 +1,19 @@
 header {
     background-color: #704241;
     color: white;
-    border: 2.5px solid #b2beb5;
+    border-bottom: 2.5px;
+}
+
+a {
+    color: white;
+}
+
+P {
+    color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: white;
 }
 
 header a {
@@ -9,18 +21,13 @@ header a {
 }
 
 section h2 {
-    border-right: 5px solid black;
+    border-right: 5px solid white;
 }
 
-section.aboutme{
-    background-color: #b2beb5;
-    border: 2.5px solid #704241;
-}
-
-section.work {
-    background-color: #b2beb5;
-    border: 2.5px solid #704241;
-
+section{
+    background-color: #303030;
+    border: 5px solid #704241;
+    border-bottom: 1.25px;
 }
 
 #featured-app {
@@ -32,23 +39,19 @@ section.work {
 }
 
 .card {
-    border: 5px inset grey;
+    border: 5px inset white;
 }
 
-section.contactme {
-    background-color: #b2beb5;
-    border: 2.5px solid #704241;
-}
-
-section div#divider {
-    background-color: black;
-}
 #moody-headshot {
-    border: 5px inset black;
+    border: 5px solid white;
     border-radius: 50%;
 }
 
 footer {
     background-color: #704241;
-    border: 2.5px solid #b2beb5;
+    border-top: 2.5px;
+}
+
+footer p {
+    margin: 10px 0;
 }

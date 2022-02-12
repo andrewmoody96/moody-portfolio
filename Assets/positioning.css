@@ -7,12 +7,12 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 5px 10px;
 }
 
 header h1 {
     margin: 20px 20px;
 }
-
 p {
     margin: 10px 10px;
     max-width: 45vw;
@@ -27,17 +27,17 @@ header nav a {
 section {
     display: flex;
     padding: 15px 0;
+    justify-content: center;
+    align-items: center;
 }
 
 section h2 {
     padding: 10px;
+    margin: 5px 10px;
     height: auto;
     align-self: stretch;
+    text-align: center;
 }
-
-/* section div#divider {
-    width: 5px;
-} */
 
 #moody-headshot {
     max-width: 20vw;
@@ -47,18 +47,18 @@ section h2 {
 section#work-id {
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
 }
 
 #featured-app {
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 
 #featuredapp-pic {
     height: auto;
     max-width: 65vw;
-    margin: 5px 10px;
+    margin: 10px 10px;
 }
 
 #other-app {
@@ -83,6 +83,10 @@ section div.card h3 {
     margin: 0 15px;
 }
 
+section div.card a h3{
+    margin: 15px 15px;
+}
+
 section.contactme {
     display: flex;
     align-items: center;
@@ -90,6 +94,12 @@ section.contactme {
 
 section.contactme a{
     margin: 10px 10px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 footer p {
