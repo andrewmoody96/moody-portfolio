@@ -43,8 +43,15 @@ section h2 {
   text-align: center;
 }
 
+section div#aboutme-avatar {
+  display: flex;
+  flex-direction: row;
+}
+
 #moody-headshot {
-  max-width: 20vw;
+  width: 500px;
+  max-width: 50vw;
+  height: auto;
   margin: 10px 10px 10px 15px;
 }
 
@@ -54,25 +61,34 @@ section#work-id {
   justify-content: space-evenly;
 }
 
+#h2-work-mobile {
+  display: none;
+}
+
 #featured-app {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
+  justify-content: center;
 }
 
 #featuredapp-pic {
   height: auto;
-  margin: 10px 10px;
+  width: 1000px;
+  margin: 5px 10px;
   max-width: 65vw;
 }
 
 #other-app {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
 .other-app-pic {
   height: auto;
-  max-width: 20vw;
+  width: 350px;
+  max-width: 85vw;
   margin: 5px 10px;
 }
 

@@ -1,7 +1,11 @@
 header {
-  background-color: #704241;
-  color: white;
+  background-color: #d1e189;
+  color: black;
   border-bottom: 2.5px;
+}
+
+header h1 {
+  color: black;
 }
 
 a {
@@ -22,16 +26,16 @@ h6 {
 }
 
 header a {
-  color: white;
+  color: black;
 }
 
 section h2 {
-  border-right: 5px solid white;
+  border-right: 5px solid #d1e189;
 }
 
 section {
   background-color: #303030;
-  border: 5px solid #704241;
+  border: 5px solid #d1e189;
   border-bottom: 1.25px;
 }
 
@@ -53,10 +57,12 @@ section {
 }
 
 footer {
-  background-color: #704241;
+  background-color: #d1e189;
   border-top: 2.5px;
+  color: black;
 }
 
 footer p {
   margin: 10px 0;
+  color: black;
 }

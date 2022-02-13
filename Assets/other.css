@@ -1,10 +1,106 @@
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 /* MEDIA QUERIES -- for responsive sizing */
 
 @media only screen and (max-width: 768px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    width: 100vw;
+    margin: 0 2.5px;
+  }
+
+  header {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  section#aboutme-id {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  section div#aboutme-avatar {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #aboutme-article {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-content: center;
+      justify-content: center;
+      width: 100vw;
+      height: auto;
+      max-height: 30vh;
+      font-size: smaller;
+  }
+
+  #aboutme-article p {
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+}
+
+  #featured-app {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #featured-app h2 {
+    display: none;
+  }
+
+  #h2-work-mobile {
+    display: block;
+  }
+
+  #featuredapp-pic {
+      width: 350px;
+      height: auto;
+  }
+
+  #other-app {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  section div.card {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    max-width: 85vw;
+    justify-content: center;
+
+  }
+
+  .card a h3 {
+    display: none;
+  }
+
+  .card a h5 {
+    display: block;
+    margin: 5px 5px;
+  }
+
+  .contactme h4 {
+    font-size: smaller;
+  }
+}
+
+/* Need to display paragraph on separate line underneath About Me & the Headshot Image */
+/* Need to force cards to display 1 per line. */
+/* Need to make sure no elements overflow the x-axis. */
+
+/* @media only screen and (max-width: 450px) {
     body {
         display: flex;
         flex-direction: column;
@@ -34,10 +130,10 @@ html {
 
     .card a h5 {
         display: block;
-        margin: 0 5px;
+        margin: 5px 5px;
     }
 
     .contactme h4 {
         font-size: smaller;
     }
-}
+} */
