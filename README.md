@@ -6,9 +6,11 @@ Moody HW-2 is the start of my portfolio page, featuring links to active web appl
 
 Click on the link to access Moody HW-2. [https://andrewmoody96.github.io/moody-hw2/](https://andrewmoody96.github.io/moody-hw2/)
 
+---
+
 ### Application Screenshot
 
-![portfolioscreenshot](./Assets/Images/hw2\screenshot.png)
+![portfolioscreenshot](./Assets/Images/hw2-screenshot.png)
 
 
 
