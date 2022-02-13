@@ -30,22 +30,22 @@ html {
   }
 
   #aboutme-article {
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      align-content: center;
-      justify-content: center;
-      width: 100vw;
-      height: auto;
-      max-height: 30vh;
-      font-size: smaller;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    width: 100vw;
+    height: auto;
+    max-height: 30vh;
+    font-size: smaller;
   }
 
   #aboutme-article p {
     width: 100%;
     text-align: center;
     margin: 10px 0;
-}
+  }
 
   #featured-app {
     width: 100%;
@@ -63,8 +63,8 @@ html {
   }
 
   #featuredapp-pic {
-      width: 350px;
-      height: auto;
+    width: 350px;
+    height: auto;
   }
 
   #other-app {
@@ -79,7 +79,6 @@ html {
     width: 350px;
     max-width: 85vw;
     justify-content: center;
-
   }
 
   .card a h3 {
