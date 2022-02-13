@@ -10,7 +10,7 @@ Click on the link to access Moody HW-2. [https://andrewmoody96.github.io/moody-h
 
 ### Application Screenshot
 
-![portfolioscreenshot](./Assets/Images/hw2-screenshot.png)
+![portfolioscreenshot](./Assets/Images/hw2 \screenshot.png)
 
 
 
