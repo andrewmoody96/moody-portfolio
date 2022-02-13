@@ -1,3 +1,4 @@
+/* Creates a smooth scrolling effect using nav to jump to different page sections.  */
 html {
   scroll-behavior: smooth;
 }
@@ -17,14 +18,14 @@ html {
     flex-direction: column;
     justify-content: center;
   }
-
-  section#aboutme-id {
+  /* Responsive parameters for About Me section of the page. */
+  #aboutme-id {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
   }
 
-  section div#aboutme-avatar {
+  #aboutme-avatar {
     display: flex;
     flex-direction: row;
   }
@@ -47,6 +48,29 @@ html {
     margin: 10px 0;
   }
 
+  /* Responsive parameters for Work section of the page. */
+
+  /* Class selectors for Work section of the page. */
+  .card {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    max-width: 85vw;
+    justify-content: center;
+  }
+
+  /* Hides h3 to make room for an h5. */
+  .card a h3 {
+    display: none;
+  }
+
+  /* Displays h5 where the former h3 was. */
+  .card a h5 {
+    display: block;
+    margin: 5px 5px;
+  }
+
   #featured-app {
     width: 100%;
     display: flex;
@@ -54,14 +78,17 @@ html {
     justify-content: center;
   }
 
+  /* Hides original h2 to make room for the mobile h2. */
   #featured-app h2 {
     display: none;
   }
 
+  /* Tells the mobile h2 to display on the page. */
   #h2-work-mobile {
     display: block;
   }
 
+  /* Resizes featured web app to be the same as the other apps when in mobile view. */
   #featuredapp-pic {
     width: 350px;
     height: auto;
@@ -72,24 +99,7 @@ html {
     flex-wrap: wrap;
   }
 
-  section div.card {
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    width: 350px;
-    max-width: 85vw;
-    justify-content: center;
-  }
-
-  .card a h3 {
-    display: none;
-  }
-
-  .card a h5 {
-    display: block;
-    margin: 5px 5px;
-  }
-
+  /* Responsive parameters for Contact Me section of the page. */
   .contactme h4 {
     font-size: smaller;
   }

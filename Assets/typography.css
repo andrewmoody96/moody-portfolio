@@ -1,19 +1,7 @@
-#featured-app a {
-  text-decoration: none;
+body {
+  font-family: "ABeeZee", sans-serif;
 }
 
 a {
   text-decoration: none;
-}
-
-header {
-  font-family: "ABeeZee", sans-serif;
-}
-
-header a {
-  text-decoration: none;
-}
-
-section {
-  font-family: "ABeeZee", sans-serif;
 }

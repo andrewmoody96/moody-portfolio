@@ -1,11 +1,11 @@
-header {
-  background-color: #d1e189;
-  color: black;
-  border-bottom: 2.5px;
-}
-
-header h1 {
-  color: black;
+/* Tag Selectors */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: white;
 }
 
 a {
@@ -16,55 +16,60 @@ P {
   color: white;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: white;
+/* Colors for the page Header. */
+header {
+  background-color: #d1e189;
+  color: black;
+  border-bottom: 2.5px;
+}
+
+header h1 {
+  color: black;
 }
 
 header a {
   color: black;
 }
 
-section h2 {
-  border-right: 5px solid #d1e189;
-}
-
+/* Colors for Sections of the page. */
 section {
   background-color: #303030;
   border: 5px solid #d1e189;
   border-bottom: 1.25px;
 }
 
-#featured-app {
-  color: black;
+/* Provides a border for h2's within sections. */
+section h2 {
+  border-right: 5px solid #d1e189;
 }
 
-#featuredapp-pic {
-  border: 2.5px solid #262626;
-}
-
-.card {
-  border: 5px inset white;
-}
-
+/* Provides circular border for the profile picture. */
 #moody-headshot {
   border: 5px solid white;
   border-radius: 50%;
 }
 
+/* Provides a border for class .card */
+.card {
+  border: 5px inset white;
+}
+
+#featured-app {
+  color: black;
+}
+
+/* Provides a border for the featured web app's picture. */
+#featuredapp-pic {
+  border: 2.5px solid #262626;
+}
+
+/* Colors for the page's Footer. */
 footer {
   background-color: #d1e189;
   border-top: 2.5px;
-  color: black;
 }
 
 footer p {
   margin: 10px 0;
   color: black;
 }
-
-/* Hopefully this works. */

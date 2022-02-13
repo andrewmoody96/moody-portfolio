@@ -1,12 +1,21 @@
+/* UNIVERSAL */
 * {
   overflow-x: hidden;
 }
 
+/* TAGS */
 body {
   margin: auto;
-  width: 100%;
+  width: 100vw;
 }
 
+p {
+  margin: 10px 10px;
+  max-width: 45vw;
+  text-align: center;
+}
+
+/* Header Positioning */
 header {
   display: flex;
   align-items: center;
@@ -18,17 +27,14 @@ header h1 {
   margin: 20px 20px;
 }
 
-p {
-  margin: 10px 10px;
-  max-width: 45vw;
-  text-align: center;
-}
-
 header nav a {
   display: inline;
   margin: 10px 10px;
 }
 
+/* SECTIONS */
+
+/* Provides styling for all sections. */
 section {
   display: flex;
   padding: 15px 0;
@@ -44,6 +50,7 @@ section h2 {
   text-align: center;
 }
 
+/* Styles the About Me section of the page. */
 section div#aboutme-avatar {
   display: flex;
   flex-direction: row;
@@ -56,16 +63,36 @@ section div#aboutme-avatar {
   margin: 10px 10px 10px 15px;
 }
 
+/* Styles the Work section of the page. */
 section#work-id {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
 }
 
+/* Hides the h2 for mobile viewing. Referenced in "./other.css" for media query.  */
 #h2-work-mobile {
   display: none;
 }
 
+/* Class selectors for Work section. */
+.card {
+  display: flex;
+  align-items: center;
+  margin: 10px 10px;
+  text-align: center;
+}
+
+.card a h3 {
+  margin: 15px 15px;
+}
+
+/* Hides the h5 for mobile viewing. Referenced in "./other.css" for media query. */
+.card a h5 {
+  display: none;
+}
+
+/* Styles the featured web application. */
 #featured-app {
   display: flex;
   flex-wrap: wrap;
@@ -80,6 +107,7 @@ section#work-id {
   max-width: 65vw;
 }
 
+/* Styles the other web applications. */
 #other-app {
   display: flex;
   flex-wrap: wrap;
@@ -93,31 +121,18 @@ section#work-id {
   margin: 5px 10px;
 }
 
-section div.card {
-  display: flex;
-  align-items: center;
-  margin: 10px 10px;
-  text-align: center;
-}
-
-section div.card h3 {
-  margin: 0 15px;
-}
-
-section div.card a h3 {
-  margin: 15px 15px;
-}
-
-section.contactme {
+/* Styles the Contact Me section of the page. */
+.contactme {
   display: flex;
   align-items: center;
   padding: 10px 10px;
 }
 
-section.contactme a {
+.contactme a {
   margin: 7px 7px;
 }
 
+/* Styles the footer of the page. */
 footer {
   display: flex;
   align-items: center;
