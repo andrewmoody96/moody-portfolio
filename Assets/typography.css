@@ -37,9 +37,12 @@ section h2 {
 }
 
 #aboutmeCTA {
-  
   display: block;
   text-align: center;
   font-size: 2em;
   line-height: 1.5em;
+}
+
+#work-article {
+  text-align: center;
 }

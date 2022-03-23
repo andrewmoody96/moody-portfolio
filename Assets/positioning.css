@@ -21,10 +21,11 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 5px 10px;
+  margin: 5px 0;
 }
 
 header h1 {
-  margin: 20px 20px;
+  margin: 0 20px;
 }
 
 header nav a {
@@ -37,6 +38,7 @@ header nav a {
 /* Provides styling for all sections. */
 section {
   display: flex;
+  flex-direction: column;
   padding: 15px 0;
   justify-content: center;
   align-items: center;
@@ -54,6 +56,13 @@ section h2 {
 section div#aboutme-avatar {
   display: flex;
   flex-direction: row;
+}
+
+#aboutme-article {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 #work-article {
@@ -135,6 +144,10 @@ section#work-id {
 
 .contactme a {
   margin: 7px 7px;
+}
+
+#contactme-id {
+  justify-content: center;
 }
 
 #contactOptions {
