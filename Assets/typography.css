@@ -1,7 +1,28 @@
-body {
-  font-family: "ABeeZee", sans-serif;
-}
+
 
 a {
   text-decoration: none;
+}
+
+p {
+  font-family: 'Bodoni Moda', serif;
+  font-size: 1.1em;
+  font-weight: 600;
+  line-height: 1.5em;
+}
+
+#aboutmeText {
+  font-family: 'Bodoni Moda', serif;
+  font-size: 1.1em;
+  font-weight: 600;
+  line-height: 1.5em;
+  padding: 50px 0 25px 0;
+}
+
+#aboutmeCTA {
+  
+  display: block;
+  text-align: center;
+  font-size: 2em;
+  line-height: 1.5em;
 }

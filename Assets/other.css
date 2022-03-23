@@ -2,6 +2,30 @@
 html {
   scroll-behavior: smooth;
 }
+/* ANNIMATION FUN */
+HTML CSS JSResult Skip Results Iframe
+EDIT ON
+@import url(https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@700&display=swap);
+body {
+  background: #111;
+}
+.hidden {
+  opacity:0;
+}
+.console-container {
+  font-family:'Overpass Mono', monospace;
+  font-size:4em;
+  text-align:right;
+  height:auto;
+  width:auto;
+  display:block;
+  color:white;
+  margin:10px 20px;
+}
+.console-underscore {
+  display:inline-block;
+}
+
 
 /* MEDIA QUERIES -- for responsive sizing */
 

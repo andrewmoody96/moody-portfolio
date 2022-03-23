@@ -9,8 +9,10 @@
       rel="stylesheet"
       href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=ABeeZee&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Rock+Salt&family=Short+Stack&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@400;500;600&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./Assets/typography.css" />
@@ -41,15 +43,17 @@
         />
       </div>
       <article id="aboutme-article">
-        <h2>About Me</h2>
-        <p>
-          My name is Andrew. I am an audio engineer and a web developer in
-          training. In 2019, I graduated from Millikin University with a degree
-          in music. I am currently attending Northwestern University's Full
-          Stack Bootcamp to gain skills as a web developer with hopes of opening
-          up new career paths. I am an avid football fan, I like 72° days with a
-          light breeze, and enjoy walking around aimlessly throughout Chicago.
-        </p>
+        <div class='console-container'><span id='text'></span>
+          <div class='console-underscore' id='console'>&#95;</div>
+        </div>
+        <p id="aboutmeText">
+          I am an audio engineer and a web developer in training. I am currently
+          attending Northwestern University's Full Stack Bootcamp to gain skills
+          as a web developer. In 2019, I graduated from Millikin University with
+          a degree in music. I am an avid football fan, I like 72° days with a
+          light breeze, and enjoy walking around aimlessly throughout Chicago. 
+        </p> -->
+        <p id="aboutmeCTA">Check out my work below!</p>
       </article>
     </section>
     <section id="work-id" class="work">
@@ -75,8 +79,8 @@
           </a>
         </div>
       </div>
-      <!-- Need to have these display as a row. The featured app will display above these, more prominently. -->
       <button id="moreApps">Show Me More</button>
+      <!-- Need to have these display as a row. The featured app will display above these, more prominently.
       <!-- <div id="other-app">
         <div class="card">
           <a href="https://andrewmoody96.github.io/moody-hw3/" target="_blank">
