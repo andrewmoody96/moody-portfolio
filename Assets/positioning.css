@@ -12,7 +12,7 @@ body {
 p {
   margin: 10px 10px;
   max-width: 45vw;
-  text-align: center;
+  text-align: justify;
 }
 
 /* Header Positioning */
@@ -54,6 +54,10 @@ section h2 {
 section div#aboutme-avatar {
   display: flex;
   flex-direction: row;
+}
+
+#work-article {
+  padding: 20px 0;
 }
 
 #moody-headshot {

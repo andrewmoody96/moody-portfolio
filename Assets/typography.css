@@ -2,17 +2,34 @@
 
 a {
   text-decoration: none;
+  font-family: 'Overpass', sans-serif;
+
 }
 
 p {
-  font-family: 'Bodoni Moda', serif;
+  font-family: 'Overpass', sans-serif;
   font-size: 1.1em;
   font-weight: 600;
   line-height: 1.5em;
 }
 
+header h1 {
+  font-family: 'Sansita Swashed', cursive;
+  font-size: 3em;
+}
+
+header a {
+  font-family: 'Overpass', sans-serif;
+  font-size: 1.2em;
+}
+
+section h2 {
+  font-family: 'Overpass', sans-serif;
+  font-size: 2em;
+}
+
 #aboutmeText {
-  font-family: 'Bodoni Moda', serif;
+  font-family: 'Overpass', sans-serif;
   font-size: 1.1em;
   font-weight: 600;
   line-height: 1.5em;

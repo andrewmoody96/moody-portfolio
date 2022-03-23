@@ -28,11 +28,11 @@ header {
 }
 
 header h1 {
-  color: black;
+  color: #262626;
 }
 
 header a {
-  color: black;
+  color: #262626;
 }
 
 /* Colors for Sections of the page. */
@@ -41,21 +41,27 @@ section {
   border: 5px solid #d1e189;
   border-bottom: 1.25px;
   border-radius: 25px;
+  box-shadow: 0px 0px 5px 0px rgba(38,38,38,0.5);
+
 }
 
 /* Provides circular border for the profile picture. */
 #moody-headshot {
   border: 5px solid #d1e189;
   border-radius: 50%;
+  box-shadow: 0px 0px 5px 5px #F7F2DC;
 }
 
 /* Provides a border for class .card */
 .card {
+  margin: 20px 10px;
   border: 5px inset white;
+  box-shadow: 0px 0px 5px 3px #F7F2DC;
 }
 
 #featured-app {
   color: black;
+  box-shadow: 0px 0px 5px 5px #F7F2DC;
 }
 
 /* Provides a border for the featured web app's picture. */
@@ -75,16 +81,18 @@ footer p {
 }
 
 #moreApps {
-  font-family: "Open Sans", sans-serif;
-  font-size: 16px;
+  margin: 15px 0;
+  font-family: 'Overpass', sans-serif;
+  font-size: 20px;
   letter-spacing: 2px;
   text-decoration: none;
   text-transform: uppercase;
   color: #000;
+  background-color: #d1e189;
   cursor: pointer;
   border: 3px solid;
   padding: 0.25em 0.5em;
-  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+  box-shadow: 1px 1px 0px 0px #d1e189, 2px 2px 0px 0px #d1e189, 3px 3px 0px 0px, 4px 4px 0px 0px #d1e189, 5px 5px 0px 0px #d1e189;
   position: relative;
   user-select: none;
   -webkit-user-select: none;
