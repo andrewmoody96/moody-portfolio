@@ -38,11 +38,6 @@ section {
   border-bottom: 1.25px;
 }
 
-/* Provides a border for h2's within sections. */
-section h2 {
-  border-right: 5px solid #d1e189;
-}
-
 /* Provides circular border for the profile picture. */
 #moody-headshot {
   border: 5px solid white;

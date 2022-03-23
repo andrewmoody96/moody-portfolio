@@ -109,7 +109,8 @@ section#work-id {
 
 /* Styles the other web applications. */
 #other-app {
-  display: flex;
+  display: none;
+  /* display: flex; */
   flex-wrap: wrap;
   justify-content: center;
 }
@@ -124,6 +125,7 @@ section#work-id {
 /* Styles the Contact Me section of the page. */
 .contactme {
   display: flex;
+  flex-direction: column;
   align-items: center;
   padding: 10px 10px;
 }
@@ -131,6 +133,12 @@ section#work-id {
 .contactme a {
   margin: 7px 7px;
 }
+
+#contactOptions {
+  display: flex;
+  flex-direction: row;
+}
+
 
 /* Styles the footer of the page. */
 footer {
