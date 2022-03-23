@@ -110,7 +110,6 @@ section#work-id {
 /* Styles the other web applications. */
 #other-app {
   display: none;
-  /* display: flex; */
   flex-wrap: wrap;
   justify-content: center;
 }

@@ -55,11 +55,13 @@ let moreApps = $(`<div id="other-app">
   </a>
 </div>
 </div>`);
+let showMoreBtn = $("#moreApps")
 
 function displayMoreApps() {
   console.log("Clicked");
   $(moreApps).css("display", "flex")
   $(moreApps).appendTo(workSection);
+  $(showMoreBtn).css("display", "none")
 }
 
 document.getElementById("moreApps").addEventListener("click", displayMoreApps);
