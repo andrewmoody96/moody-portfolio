@@ -53,10 +53,6 @@ section h2 {
 }
 
 /* Styles the About Me section of the page. */
-section div#aboutme-avatar {
-  display: flex;
-  flex-direction: row;
-}
 
 #aboutme-article {
   display: flex;
@@ -74,6 +70,7 @@ section div#aboutme-avatar {
   max-width: 50vw;
   height: auto;
   margin: 10px 10px 10px 15px;
+  
 }
 
 /* Styles the Work section of the page. */
@@ -154,7 +151,6 @@ section#work-id {
   display: flex;
   flex-direction: row;
 }
-
 
 /* Styles the footer of the page. */
 footer {

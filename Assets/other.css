@@ -7,29 +7,28 @@ html {
 #animationContainer {
   display: block;
 }
-HTML CSS JSResult Skip Results Iframe
-EDIT ON
+
+/* Found online at https://www.sliderrevolution.com/resources/css-text-animation/ */
 @import url(https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@700&display=swap);
 body {
-  background: #111;
+  background: #262626;
 }
 .hidden {
-  opacity:0;
+  opacity: 0;
 }
 .console-container {
-  font-family:'Overpass Mono', monospace;
-  font-size:4em;
-  text-align:right;
-  height:auto;
-  width:auto;
-  display:block;
-  color:white;
-  margin:10px 20px;
+  font-family: "Overpass Mono", monospace;
+  font-size: 3em;
+  text-align: right;
+  height: 85px;
+  max-width: 80vw;
+  display: block;
+  color: white;
+  margin: 10px 20px;
 }
 .console-underscore {
-  display:inline-block;
+  display: inline-block;
 }
-
 
 /* MEDIA QUERIES -- for responsive sizing */
 
@@ -46,21 +45,38 @@ body {
     flex-direction: column;
     justify-content: center;
   }
+
+  header a {
+    margin-top: 5px;
+  }
+
   /* Responsive parameters for About Me section of the page. */
+  .console-container {
+    font-family: "Overpass Mono", monospace;
+    font-size: 2em;
+    text-align: right;
+    height: 75px;
+    max-width: 80vw;
+    display: block;
+    color: white;
+    margin: 10px 20px;
+  }
+  
   #aboutme-id {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
   }
 
-  #aboutme-avatar {
-    display: flex;
-    flex-direction: row;
+  #moody-headshot {
+    width: 33vw;
+    max-width: 50vw;
+    height: auto;
+    margin: 10px 10px 10px 15px;
   }
 
   #aboutme-article {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
@@ -68,12 +84,16 @@ body {
     height: auto;
     max-height: 30vh;
     font-size: smaller;
+    overflow-y: hidden;
   }
 
   #aboutme-article p {
     width: 100%;
     text-align: center;
+    font-size: smaller;
+    height: auto;
     margin: 10px 0;
+    overflow-y: hidden;
   }
 
   /* Responsive parameters for Work section of the page. */
@@ -108,6 +128,10 @@ body {
 
   /* Hides original h2 to make room for the mobile h2. */
   #featured-app h2 {
+    display: none;
+  }
+
+  #h2-work {
     display: none;
   }
 
