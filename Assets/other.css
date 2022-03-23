@@ -46,6 +46,11 @@ body {
     justify-content: center;
   }
 
+  h1 {
+    text-align: center;
+    padding: 10px 0;
+  }
+
   header a {
     margin-top: 5px;
   }
@@ -57,44 +62,45 @@ body {
     text-align: right;
     height: 75px;
     max-width: 80vw;
-    display: block;
+    display: flex;
     color: white;
     margin: 10px 20px;
+    overflow-y: hidden;
   }
   
   #aboutme-id {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    
   }
 
-  #moody-headshot {
-    width: 33vw;
-    max-width: 50vw;
-    height: auto;
-    margin: 10px 10px 10px 15px;
-  }
-
+  
   #aboutme-article {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
     align-content: center;
     justify-content: center;
     width: 100vw;
     height: auto;
-    max-height: 30vh;
     font-size: smaller;
     overflow-y: hidden;
   }
-
-  #aboutme-article p {
-    width: 100%;
+  
+  #moody-headshot {
+    max-width: 75vw;
+    height: auto;
+    margin: 10px 10px 10px 15px;
+  }
+  /* #aboutme-article p {
+    width: 85%;
     text-align: center;
     font-size: smaller;
     height: auto;
     margin: 10px 0;
     overflow-y: hidden;
-  }
+  } */
 
   /* Responsive parameters for Work section of the page. */
 

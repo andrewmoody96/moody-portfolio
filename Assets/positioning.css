@@ -61,6 +61,10 @@ section h2 {
   align-items: center;
 }
 
+#aboutmeText {
+  display: flex;
+}
+
 #work-article {
   padding: 20px 0;
 }
