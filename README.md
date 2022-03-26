@@ -4,11 +4,14 @@ This application is an update to my previously created portfolio page. It has be
 
 ## Accessing the Page
 
-Click on the link to access Moody HW-2. [https://andrewmoody96.github.io/moody-portfolio/](https://andrewmoody96.github.io/moody-portfolio/)
+Click on the link to access my portfolio. [https://andrewmoody96.github.io/moody-portfolio/](https://andrewmoody96.github.io/moody-portfolio/)
+
+GitHub Repo:
+[https://github.com/andrewmoody96/moody-portfolio](https://github.com/andrewmoody96/moody-portfolio)
 
 ---
 
-### Application Screenshot
+### Application Screenshots
 
 ![portfolioscreenshot](./Assets/Images/appCapture1.png)
 
