@@ -21,7 +21,7 @@ let moreApps = $(`<div id="other-app">
     <!-- UPDATE WEATHER APP AND REPLACE PIC -->
     <img
       class="other-app-pic"
-      src="./Assets/Images/Google Pic.png"
+      src="./Assets/Images/weather-pic.png"
       alt="Photo of web application."
     />
   </a>
