@@ -57,7 +57,6 @@ let moreApps = $(`<div id="other-app">
 </div>`);
 let showMoreBtn = $("#moreApps");
 
-
 // Creates and appends HTML to show more apps I've developed.
 function displayMoreApps() {
   console.log("Clicked");

@@ -67,15 +67,13 @@ body {
     margin: 10px 20px;
     overflow-y: hidden;
   }
-  
+
   #aboutme-id {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    
   }
 
-  
   #aboutme-article {
     display: flex;
     /* flex-wrap: wrap; */
@@ -87,7 +85,7 @@ body {
     font-size: smaller;
     overflow-y: hidden;
   }
-  
+
   #moody-headshot {
     max-width: 75vw;
     height: auto;
