@@ -3,6 +3,7 @@
   overflow-x: hidden;
 }
 
+
 /* TAGS */
 body {
   margin: auto;
@@ -91,18 +92,24 @@ section#work-id {
 /* Class selectors for Work section. */
 .card {
   display: flex;
+  flex-direction: column;
   align-items: center;
   margin: 10px 10px;
   text-align: center;
+  max-width: 50vw;
 }
 
 .card a h3 {
-  margin: 15px 15px;
+  margin: 15px 5px;
 }
 
 /* Hides the h5 for mobile viewing. Referenced in "./other.css" for media query. */
 .card a h5 {
   display: none;
+}
+
+.app-description {
+  display: block;
 }
 
 /* Styles the featured web application. */

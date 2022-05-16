@@ -1,15 +1,32 @@
 let workSection = $("#work-id");
 let moreApps = $(`<div id="other-app">
 <div class="card">
-  <a href="https://andrewmoody96.github.io/moody-hw3/" target="_blank">
-    <h3>JS Password Generator</h3>
-    <h5>JS Password Generator</h5>
-    <img
-      class="other-app-pic"
-      src="./Assets/Images/03-javascript-homework-demo.png"
-      alt="Photo of web application."
-    />
-  </a>
+<a
+href="https://andrewmoody96.github.io/1-fish-2-fish-red-fish-joe-fish/"
+target="_blank"
+>
+<h3>One Fish, Two Fish, Red Fish, Go Fish?</h3>
+<h5>One Fish, Two Fish, Red Fish, Go Fish?</h5>
+<h6 class="app-description">
+  An application to help ocean fishers find information on species
+  and weather for the location they'll be fishing at.
+</h6>
+<h4>
+  <a
+    href="https://github.com/andrewmoody96/1-fish-2-fish-red-fish-joe-fish"
+    title="GitHub"
+    class=""
+    target="_blank"
+    style="color: #d1e189"
+    >Repo</a
+  >
+</h4>
+<img
+  class="other-app-pic"
+  src="./Assets/Images/oneFishTwoFishRedFishGoFish.png"
+  alt="Photo of web application."
+/>
+</a>
 </div>
 <div class="card">
   <a
@@ -18,7 +35,16 @@ let moreApps = $(`<div id="other-app">
   >
     <h3>Weather Dashboard</h3>
     <h5>Weather Dashboard</h5>
-    <!-- UPDATE WEATHER APP AND REPLACE PIC -->
+    <h6>An app to show users weather data based on the city they input.</h6>
+    <h4>
+              <a
+                href="https://github.com/andrewmoody96/1-fish-2-fish-red-fish-joe-fish"
+                title="GitHub"
+                class=""
+                target="_blank"
+                style="color: #d1e189;"
+              >Repo</a>
+            </h4>
     <img
       class="other-app-pic"
       src="./Assets/Images/weather-pic.png"
@@ -33,23 +59,19 @@ let moreApps = $(`<div id="other-app">
   >
     <h3>Chocolate In Your Pocket</h3>
     <h5>Chocolate In Your Pocket</h5>
+    <h6>Homepage for my band. A work in progress.</h6>
+    <h4>
+    <a
+    href="https://github.com/andrewmoody96/1-fish-2-fish-red-fish-joe-fish"
+    title="GitHub"
+    class=""
+    target="_blank"
+    style="color: #d1e189;"
+  >Repo</a>
+  </h4>
     <img
       class="other-app-pic"
       src="./Assets/Images/CIYP Website Pic.png"
-      alt="Photo of featured web application."
-    />
-  </a>
-</div>
-<div class="card">
-  <a
-    href="https://andrewmoody96.github.io/moody-hw5/"
-    target="_blank"
-  >
-    <h3>Work Day Scheduler</h3>
-    <h5>Work Day Scheduler</h5>
-    <img
-      class="other-app-pic"
-      src="./Assets/Images/workDayScheduler.png"
       alt="Photo of web application."
     />
   </a>

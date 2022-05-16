@@ -43,3 +43,12 @@ section h2 {
 #work-article {
   text-align: center;
 }
+
+.app-description {
+  text-align: center;
+  font-weight: 12pt;
+}
+
+.card a h6 {
+  text-align: center;
+}
